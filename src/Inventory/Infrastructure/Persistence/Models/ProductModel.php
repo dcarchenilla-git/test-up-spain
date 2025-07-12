@@ -14,3 +14,5 @@ class ProductModel extends Model
         return $this->hasMany(ProductVariantModel::class, 'product_id');
     }
 }
+
+//Infraestructura: Modelos Eloquent y el adaptador EloquentProductRepository para persistir en MySQL.

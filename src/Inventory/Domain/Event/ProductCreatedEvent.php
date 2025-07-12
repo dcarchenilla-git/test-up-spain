@@ -11,3 +11,6 @@ class ProductCreatedEvent
 
     public function __construct(public readonly Product $product) {}
 }
+
+
+//Eventos de Dominio: Implementamos ProductCreatedEvent para notificar cuando se crea un producto.

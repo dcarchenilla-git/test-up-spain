@@ -73,3 +73,6 @@ class ProductSeeder extends Seeder
     
 
 }
+
+
+//Extras: ProductSeeder de productos

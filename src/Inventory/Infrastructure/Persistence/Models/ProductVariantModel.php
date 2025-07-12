@@ -13,3 +13,5 @@ class ProductVariantModel extends Model
         return $this->belongsTo(ProductModel::class, 'product_id');
     }
 }
+
+//Infraestructura: Modelos Eloquent y el adaptador EloquentProductRepository para persistir en MySQL.

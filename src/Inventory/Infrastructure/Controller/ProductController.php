@@ -126,3 +126,6 @@ class ProductController extends Controller
     }
 
 }
+
+//API REST: Controlador con endpoint POST /inventory/products para crear productos validando datos y retornando JSON.
+//Extras: otros endpoint para listar y borrar productos

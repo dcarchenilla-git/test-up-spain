@@ -27,3 +27,5 @@ class ProductVariant
         $this->imageUrl = $imageUrl;
     }
 }
+
+//Dominio: Definimos las entidades Product y ProductVariant con sus atributos y métodos básicos.

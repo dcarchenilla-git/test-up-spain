@@ -37,8 +37,13 @@ class CreateProductHandler
 
         $this->repository->save($product);
 
+        //Eventos de Dominio: Implementamos ProductCreatedEvent para notificar cuando se crea un producto.
         event(new ProductCreatedEvent($product));
 
+        //Notificaciones: Servicio para enviar correos al crear un producto.
         $this->notifier->notify($product);
     }
 }
+
+
+//Aplicación: Comando CreateProductCommand y su handler para manejar la creación del producto con CQRS.

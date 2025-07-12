@@ -32,3 +32,5 @@ class Product
         $this->variants[] = $variant;
     }
 }
+
+//Dominio: Definimos las entidades Product y ProductVariant con sus atributos y métodos básicos.

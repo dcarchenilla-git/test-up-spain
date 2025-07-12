@@ -25,3 +25,6 @@ class SendGridNotifier implements EmailNotifierInterface
         }
     }
 }
+
+
+//Servicios de Dominio: Interfaz EmailNotifierInterface y para SendGrid.

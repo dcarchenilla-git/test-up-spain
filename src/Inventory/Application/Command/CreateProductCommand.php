@@ -11,3 +11,5 @@ class CreateProductCommand
         public array $variants
     ) {}
 }
+
+//Aplicación: Comando CreateProductCommand y su handler para manejar la creación del producto con CQRS.

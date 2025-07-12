@@ -19,3 +19,6 @@ interface ProductRepositoryInterface
     public function delete(Product $product): void;
 
 }
+
+
+//Repositorio: Creamos la interfaz ProductRepositoryInterface para abstraer la persistencia.

@@ -22,3 +22,6 @@ Route::delete('/products/{id}', [ProductController::class, 'delete']);
 //https://test-app.test/api//products/list
 //https://test-app.test/api//products/1
 //https://test-app.test/api/products/7
+
+
+//Rutas: Registro del endpoint en routes/api.php.

@@ -17,3 +17,6 @@ class SMTPNotifier implements EmailNotifierInterface
         });
     }
 }
+
+
+//Servicios de Dominio: Interfaz EmailNotifierInterface y para SMTP - mailtrap.io.

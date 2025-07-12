@@ -156,3 +156,5 @@ class EloquentProductRepository implements ProductRepositoryInterface
         return $result;
     }
 }
+
+//Infraestructura: Modelos Eloquent y el adaptador EloquentProductRepository para persistir en MySQL.

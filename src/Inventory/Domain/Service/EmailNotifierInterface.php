@@ -7,3 +7,5 @@ interface EmailNotifierInterface
 {
     public function notify(Product $product): void;
 }
+
+//Servicios de Dominio: Interfaz EmailNotifierInterface
